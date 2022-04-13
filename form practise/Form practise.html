@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Form practise</title>
+</head>
+
+<body>
+    <h1>Like your video - A survey</h1>
+    <hr>
+    <form action="http://courses.cs.cityu.edu.hk/cs1303/t4-echo.html" method="get">
+        <p>
+            <label>Your first name:</label>
+            <input type="text" name="firstname" value="firstname">
+            <br>
+            <label>Your Age Group:</label>
+            <input type="radio" name="agegroup" value="11-20">11-20
+            <input type="radio" name="agegroup" value="21-40">21-40
+            <input type="radio" name="agegroup" value="41-60">41-60
+            <br>
+            <video controls>
+                <source src="http://courses.cs.cityu.edu.hk/cs1303/example/video/nature.mp4" type="video/mp4">
+                <source src="http://courses.cs.cityu.edu.hk/cs1303/example/video/nature.ogg" type="video/ogg">
+                Your browser does not support HTML5 video.
+            </video>
+            <input type="checkbox" name="nature" value="nature">
+            <label>like</label>
+            <video controls>
+                <source src="http://courses.cs.cityu.edu.hk/cs1303/example/video/wonders.mp4" type="video/mp4">
+                <source src="http://courses.cs.cityu.edu.hk/cs1303/example/video/wonders.ogg" type="video/ogg">
+                Your browser does not support HTML5 video.
+            </video>
+            <input type="checkbox" name="wonders" value="wonders">
+            <label>like</label>
+            <br>
+            <input type="submit" value="Submit"/>
+        </p>
+    </from>
+
+
+</body>
+</html>
